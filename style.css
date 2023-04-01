@@ -1,0 +1,114 @@
+/* Set the background color of the page */
+body {
+  background-color: #FFD7BA;
+}
+
+/* Set the font and color of the text */
+.container, h1, h2, p, a {
+  font-family: Arial, sans-serif;
+  color: #FFFFFF
+;
+}
+
+/* Style the container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* Style the introduction card */
+#introduction {
+  background-color: #A1514F;
+  padding: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin: 50px auto;
+  width: 60%;
+}
+
+#introduction h1 {
+	color: #FFD7BA;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+#introduction img {
+  max-width: 64%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+#introduction p {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.btn-donate {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #A1514F;
+  background-color: #FFD7BA;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-donate:hover {
+  transform: scale(1.1);
+}
+
+/* Style the other cards */
+.card-white {
+  background-color: #A1514F;
+  margin-bottom: 50px;
+  width: calc(33.33% - 20px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-white:hover {
+  transform: translateY(-10px);
+}
+
+.card-white h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #FFD7BA;
+}
+
+.card-white p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Style the social media links */
+.list-inline {
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  margin: 0 10px;
+}
+
+.list-inline li a {
+  font-size: 24px;
+  color: #A1514F;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-inline li a:hover {
+  color: #fff;
+}
